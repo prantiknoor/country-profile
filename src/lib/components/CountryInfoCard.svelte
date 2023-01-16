@@ -14,7 +14,7 @@
 
 <a href="/{name}" class="max-w-[16rem] md:max-w-[13.8rem] shadow rounded overflow-hidden dark:bg-gray-800">
     <img class="w-full aspect-video object-cover" src={flagImgSrc} alt="flag of {name}"/>
-    <div class="p-4 grid gap-y-2 bg-gray-50">
+    <div class="p-4 grid gap-y-2 bg-gray-50 dark:bg-gray-800">
         <h3 class="text-xl font-semibold">{name}</h3>
         <ul class="">
             {#each Object.entries(info) as [key, value]}
