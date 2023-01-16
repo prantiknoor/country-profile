@@ -26,6 +26,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Where in the world?</title>
+</svelte:head>
+
 <SearchFilterBar bind:searchQuery bind:filter />
 <div class="flex flex-wrap gap-8 justify-center mt-6">
 	{#each outputAllCountryInfo as countryInfo (countryInfo.name)}

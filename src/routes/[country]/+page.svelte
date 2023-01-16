@@ -24,6 +24,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>{name}</title>
+</svelte:head>
+
 <Button on:click={() => goto('/')} color="alternative">
 	<svg
 		class="w-5 mr-2 -ml-2"
